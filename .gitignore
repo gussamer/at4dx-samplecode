@@ -38,3 +38,6 @@ sfdx-source/untracked/
 package.json
 /node_modules
 package-lock.json
+
+#qfpm
+bin/qfpm/

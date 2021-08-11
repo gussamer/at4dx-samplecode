@@ -1,10 +1,10 @@
 {
-  "orgName": "Developer Company",
+  "orgName": "npm-at4dx-sample",
   "edition": "Developer",
-  "features": [],
+  "features": ["API","DebugApex","AuthorApex"],
   "settings": {
-    "orgPreferenceSettings": {
-      "s1DesktopEnabled": true
-    }
+      "lightningExperienceSettings": {
+          "enableS1DesktopEnabled": true
+      }
   }
 }
