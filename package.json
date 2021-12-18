@@ -4,20 +4,20 @@
     "description": "unofficial npm mirror of at4dx sample code",
     "main": "index.js",
     "scripts": {
-        "test": "bash ./bin/qfpm/test",
-        "build": "bash ./bin/qfpm/build",
-        "clean": "bash ./bin/qfpm/clean",
-        "deploy": "bash ./bin/qfpm/deploy",
-        "getprojectname": "bash ./bin/qfpm/getprojectname",
-        "getsrcfolders": "bash ./bin/qfpm/getsrcfolders",
-        "isqfpm": "bash ./bin/qfpm/isqfpm",
-        "isscratched": "bash ./bin/qfpm/isscratched",
-        "postinstall": "bash ./bin/qfpm/postinstall",
-        "preinstall": "bash ./bin/qfpm/preinstall",
-        "push": "bash ./bin/qfpm/push",
-        "scratch": "bash ./bin/qfpm/scratch",
-        "setup": "bash ./bin/qfpm/setup",
-        "removedepends": "bash ./bin/qfpm/removedepends"
+        "test": "qtest",
+        "build": "qbuild",
+        "clean": "qclean",
+        "deploy": "qdeploy",
+        "getprojectname": "qgetprojectname",
+        "getsrcfolders": "qgetsrcfolders",
+        "isqfpm": "qisqfpm",
+        "isscratched": "qisscratched",
+        "postinstall": "qpostinstall",
+        "preinstall": "qpreinstall",
+        "push": "qpush",
+        "scratch": "qscratch",
+        "setup": "qsetup",
+        "removedepends": "qremovedepends"
     },
     "repository": {
         "type": "git",
@@ -35,7 +35,7 @@
     },
     "homepage": "https://github.com/gussamer/at4dx-samplecode#readme",
     "dependencies": {
-        "npm-at4dx": "^1.0.1",
-        "qfpm": "^1.0.19"
+        "npm-at4dx": "^1.1.1",
+        "qfpm": "^1.1.1"
     }
 }

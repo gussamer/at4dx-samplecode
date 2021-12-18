@@ -36,7 +36,3 @@ sfdx-source/untracked/
 
 # NPM Related
 /node_modules
-package-lock.json
-
-#qfpm
-bin/qfpm/

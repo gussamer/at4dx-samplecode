@@ -1,10 +1,19 @@
 {
+<<<<<<< HEAD
   "orgName": "npm-at4dx-sample",
   "edition": "Developer",
   "features": ["API","DebugApex","AuthorApex"],
   "settings": {
       "lightningExperienceSettings": {
           "enableS1DesktopEnabled": true
+=======
+    "orgName": "Developer Company",
+    "edition": "Developer",
+    "features": [],
+    "settings": {
+      "lightningExperienceSettings": {
+        "enableS1DesktopEnabled": true
+>>>>>>> upstream/master
       }
   }
 }
